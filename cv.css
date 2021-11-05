@@ -1,0 +1,104 @@
+
+* {
+  box-sizing: border-box;
+}
+
+ body {
+  text-transform:capitalize ;
+  font-family: sans-serif;
+  background-color: #ccccff;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+
+.all {  
+   display: flex;
+   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 700px) {
+  .all {   
+    flex-direction: column;
+} }
+
+
+  .leftpage {
+   flex: 25%;
+   background-color: #fff5ef;
+   padding: 20px;
+   float: left;
+   }
+
+   .photo {
+    background-image: url("h.jpg");
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0.5em;
+  }
+  .name {
+    position: relative;
+    top:  180px;
+    text-align: left;
+    align-items: flex-end;
+    color: #ffffff;
+  }
+
+  .first{
+    font-size: 16px;
+    color: #666666;
+    padding: 0.5em 1.5em;    
+  }
+
+ .rightpage {
+   flex: 65%;
+   background-color: #fff5ef;
+   padding: 20px;
+   float: right;
+ }
+
+ .card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  padding-bottom: 2em;
+ }
+ 
+ .skills-bar, .language-bar {
+   width: 100%;
+   background-color: #e6e6ff;
+   border-radius: 6px;
+ }
+ .skills, .language {
+   font-size: 12px;
+   text-align: center;  
+   color: white;
+ }
+ .html {width: 90%; background-color: #0000cc; border-radius: 6px;}
+ .css {width: 80%; background-color: #0000cc; border-radius: 6px;}
+ .js {width: 65%; background-color: #0000cc; border-radius: 6px;}
+ .english {width: 80%; background-color: #0000cc; border-radius: 6px;}
+ .french {width: 50%; background-color: #0000cc; border-radius: 6px;}
+ .arabic {width: 100%; background-color: #0000cc; border-radius: 6px;}
+
+
+ mark {
+ padding: 5px;
+ background-color: #0000cc;
+ color:white;
+ border-radius: 0.2em;
+ }
+
+
+ footer {
+   text-align: center;
+   text-decoration: none;
+   background-color: #0000cc;
+   color: #33ffff;
+   padding: 1em;
+   width: 100%;
+ }
+
